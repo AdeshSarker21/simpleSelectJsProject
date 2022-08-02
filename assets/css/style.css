@@ -1,0 +1,175 @@
+/*============
+font-family: 'Roboto', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*=========================================*/
+/*=======Start Header and Hero Section======*/
+/*=========================================*/
+.mainBodySection {}
+
+.accountTableHeading {
+    text-align: center;
+}
+
+.accountTableHeading h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    line-height: 35px;
+    padding: 25px 0px;
+}
+
+.accountDetails {}
+
+.checkboxOne {
+    text-align: right;
+    padding: 25px 0;
+    padding-right: 11%;
+}
+
+.checkboxOne label {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    padding-right: 10px;
+}
+
+.tableHead {
+    background-image: linear-gradient(to bottom right, #020024, #090979, #00d4ff);
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.mainTableBody {
+    text-align: center;
+}
+
+.cardNumber {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+}
+
+.cardNumber input {
+    border: none;
+    background: none;
+}
+
+.address {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+}
+
+.checkboxTwo {}
+
+.checkboxTwo input {
+    cursor: pointer;
+    font-size: 36px;
+}
+
+tr {
+    border: 2px solid #000;
+}
+
+.clickToEnroll {
+    text-align: right;
+    margin-top: 35px;
+}
+
+.clickToEnroll input {
+    border: none;
+    background: none;
+    background-image: linear-gradient(to bottom right, #020024, #090979, #00d4ff);
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 35px;
+    padding: 15px 35px;
+}
+
+/*--------------------------Responsive---------------------------------*/
+@media all and (max-width:480px) {
+    .accountTableHeading h2 {
+        font-size: 26px;
+    }
+}
+
+@media all and (max-width:385px) {
+    .tableHead {
+        font-size: 17px;
+    }
+
+    .accountTableHeading h2 {
+        font-size: 22px;
+    }
+
+    .clickToEnroll input {
+        font-size: 17px;
+    }
+}
+
+@media all and (max-width:361px) {
+    .cardNumber {
+        font-size: 16px;
+    }
+
+    .address {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width:349px) {
+    .cardNumber {
+        font-size: 14px;
+    }
+
+    .address {
+        font-size: 14px;
+    }
+
+    .tableHead {
+        font-size: 15px;
+    }
+}

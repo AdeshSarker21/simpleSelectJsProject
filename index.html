@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="icon" href="#" type="image/gif" sizes="16x16">
+    <!--Bootstrap CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Google Font Family-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--=================Start Main Body Section==============-->
+    <section class="mainBodySection">
+        <div class="container">
+            <div class="row">
+                <!--Accoutn Nember Table Heading-->
+                <div class="accountTableHeading">
+                    <h2>Select the accounts you wish to enroll in just one click.</h2>
+                </div>
+                <!--/// End Accoutn Nember Table Heading-->
+                <!--Account Details-->
+                <div class="accountDetails">
+                    <form action="" method="">
+                        <div class="checkboxOne">
+                            <label for="">Select All</label>
+                            <input type="checkbox" onclick="toggle(this);">
+                        </div>
+                        <!--Main Table-->
+                        <table class="table table-striped table-hover">
+                            <thead class="tableHead">
+                                <tr>
+                                    <th scope="col">Account</th>
+                                    <th scope="col">Service Address</th>
+                                    <th scope="col">Paperless</th>
+                                </tr>
+                            </thead>
+                            <tbody class="mainTableBody">
+                                <!--Copy item-->
+                                <tr>
+                                    <td class="cardNumber">
+                                        <input id="cardNo" placeholder="**** **** **** 7481" onfocus="showCardValue()" onblur="hideCardValue(this.value)" onkeypress="formatCardNumber(this)" maxlength="19">
+                                        <input id="cardNoSafe" value="" style="display:none;">
+                                    </td>
+                                    <td class="address">113 W Main St.</td>
+                                    <td class="checkboxTwo">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <!--/// end Copy item-->
+                                <!--Copy item-->
+                                <tr>
+                                    <td class="cardNumber">
+                                        <input id="cardNo2" placeholder="**** **** **** 7482" onfocus="showCardValue2()" onblur="hideCardValue2(this.value)" onkeypress="formatCardNumber2(this)" maxlength="19">
+                                        <input id="cardNoSafe2" value="" style="display:none;">
+                                    </td>
+                                    <td class="address">113 W Main St.</td>
+                                    <td class="checkboxTwo">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <!--/// end Copy item-->
+                                <!--Copy item-->
+                                <tr>
+                                    <td class="cardNumber">
+                                        <input id="cardNo3" placeholder="**** **** **** 7483" onfocus="showCardValue3()" onblur="hideCardValue3(this.value)" onkeypress="formatCardNumber3(this)" maxlength="19">
+                                        <input id="cardNoSafe3" value="" style="display:none;">
+                                    </td>
+                                    <td class="address">113 W Main St.</td>
+                                    <td class="checkboxTwo">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <!--/// end Copy item-->
+                                <!--Copy item-->
+                                <tr>
+                                    <td class="cardNumber">
+                                        <input id="cardNo4" placeholder="**** **** **** 7484" onfocus="showCardValue4()" onblur="hideCardValue4(this.value)" onkeypress="formatCardNumber4(this)" maxlength="19">
+                                        <input id="cardNoSafe4" value="" style="display:none;">
+                                    </td>
+                                    <td class="address">113 W Main St.</td>
+                                    <td class="checkboxTwo">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <!--/// end Copy item-->
+                                <!--Copy item-->
+                                <tr>
+                                    <td class="cardNumber">
+                                        <input id="cardNo5" placeholder="**** **** **** 7485" onfocus="showCardValue5()" onblur="hideCardValue5(this.value)" onkeypress="formatCardNumber5(this)" maxlength="19">
+                                        <input id="cardNoSafe5" value="" style="display:none;">
+                                    </td>
+                                    <td class="address">113 W Main St.</td>
+                                    <td class="checkboxTwo">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <!--/// end Copy item-->
+                                <!--Copy item-->
+                                <tr>
+                                    <td class="cardNumber">
+                                        <input id="cardNo6" placeholder="**** **** **** 7486" onfocus="showCardValue6()" onblur="hideCardValue6(this.value)" onkeypress="formatCardNumber6(this)" maxlength="19">
+                                        <input id="cardNoSafe6" value="" style="display:none;">
+                                    </td>
+                                    <td class="address">113 W Main St.</td>
+                                    <td class="checkboxTwo">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <!--/// end Copy item-->
+                                <!--Copy item-->
+                                <tr>
+                                    <td class="cardNumber">
+                                        <input id="cardNo7" placeholder="**** **** **** 7487" onfocus="showCardValue7()" onblur="hideCardValue7(this.value)" onkeypress="formatCardNumber7(this)" maxlength="19">
+                                        <input id="cardNoSafe7" value="" style="display:none;">
+                                    </td>
+                                    <td class="address">113 W Main St.</td>
+                                    <td class="checkboxTwo">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <!--/// end Copy item-->
+                                <!--Copy item-->
+                                <tr>
+                                    <td class="cardNumber">
+                                        <input id="cardNo8" placeholder="**** **** **** 7488" onfocus="showCardValue8()" onblur="hideCardValue8(this.value)" onkeypress="formatCardNumber8(this)" maxlength="19">
+                                        <input id="cardNoSafe8" value="" style="display:none;">
+                                    </td>
+                                    <td class="address">113 W Main St.</td>
+                                    <td class="checkboxTwo">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <!--/// end Copy item-->
+                                <!--Copy item-->
+                                <tr>
+                                    <td class="cardNumber">
+                                        <input id="cardNo9" placeholder="**** **** **** 7489" onfocus="showCardValue9()" onblur="hideCardValue9(this.value)" onkeypress="formatCardNumber9(this)" maxlength="19">
+                                        <input id="cardNoSafe9" value="" style="display:none;">
+                                    </td>
+                                    <td class="address">113 W Main St.</td>
+                                    <td class="checkboxTwo">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <!--/// end Copy item-->
+                                <!--Copy item-->
+                                <tr>
+                                    <td class="cardNumber">
+                                        <input id="cardNo10" placeholder="**** **** **** 7410" onfocus="showCardValue10()" onblur="hideCardValue10(this.value)" onkeypress="formatCardNumber10(this)" maxlength="19">
+                                        <input id="cardNoSafe10" value="" style="display:none;">
+                                    </td>
+                                    <td class="address">113 W Main St.</td>
+                                    <td class="checkboxTwo">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <!--/// end Copy item-->
+                                <!--Copy item-->
+                                <tr>
+                                    <td class="cardNumber">
+                                        <input id="cardNo11" placeholder="**** **** **** 7411" onfocus="showCardValue11()" onblur="hideCardValue11(this.value)" onkeypress="formatCardNumber11(this)" maxlength="19">
+                                        <input id="cardNoSafe11" value="" style="display:none;">
+                                    </td>
+                                    <td class="address">113 W Main St.</td>
+                                    <td class="checkboxTwo">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <!--/// end Copy item-->
+                                <!--Copy item-->
+                                <tr>
+                                    <td class="cardNumber">
+                                        <input id="cardNo12" placeholder="**** **** **** 7412" onfocus="showCardValue12()" onblur="hideCardValue12(this.value)" onkeypress="formatCardNumber12(this)" maxlength="19">
+                                        <input id="cardNoSafe12" value="" style="display:none;">
+                                    </td>
+                                    <td class="address">113 W Main St.</td>
+                                    <td class="checkboxTwo">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <!--/// end Copy item-->
+                                <!--Copy item-->
+                                <tr>
+                                    <td class="cardNumber">
+                                        <input id="cardNo13" placeholder="**** **** **** 7413" onfocus="showCardValue13()" onblur="hideCardValue13(this.value)" onkeypress="formatCardNumber13(this)" maxlength="19">
+                                        <input id="cardNoSafe13" value="" style="display:none;">
+                                    </td>
+                                    <td class="address">113 W Main St.</td>
+                                    <td class="checkboxTwo">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <!--/// end Copy item-->
+                                <!--Copy item-->
+                                <tr>
+                                    <td class="cardNumber">
+                                        <input id="cardNo14" placeholder="**** **** **** 7414" onfocus="showCardValue14()" onblur="hideCardValue14(this.value)" onkeypress="formatCardNumber14(this)" maxlength="19">
+                                        <input id="cardNoSafe14" value="" style="display:none;">
+                                    </td>
+                                    <td class="address">113 W Main St.</td>
+                                    <td class="checkboxTwo">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <!--/// end Copy item-->
+                                <!--Copy item-->
+                                <tr>
+                                    <td class="cardNumber">
+                                        <input id="cardNo15" placeholder="**** **** **** 7415" onfocus="showCardValue15()" onblur="hideCardValue15(this.value)" onkeypress="formatCardNumber15(this)" maxlength="19">
+                                        <input id="cardNoSafe15" value="" style="display:none;">
+                                    </td>
+                                    <td class="address">113 W Main St.</td>
+                                    <td class="checkboxTwo">
+                                        <input type="checkbox">
+                                    </td>
+                                </tr>
+                                <!--/// end Copy item-->
+                            </tbody>
+                        </table>
+                        <!--/// End Main Table-->
+                        <!--Enroll Button-->
+                        <div class="clickToEnroll">
+                            <input type="submit" value="Click To Enroll">
+                        </div>
+                        <!--/// End Enroll Button-->
+                    </form>
+                </div>
+                <!--/// End Account Details-->
+            </div>
+        </div>
+    </section>
+    <!--=================End Main Body Section==============-->
+    <!--Bootstrap CDN js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
